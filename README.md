@@ -3,7 +3,7 @@ SimpleFlake distributed ID generation for Swift ❄️
 
 Generate ids consisting of a 41 bit time followed 23 random bits. String outputs can be encoded to binary, base10 or hexadecimal.
 
-The default epoch used to calculate dates is (00:00:00 UTC on 1 January 2001). This is based on Foundation's `timeIntervalSinceReferenceDate` but is fully customiazble during initialzation.
+The default epoch used to calculate dates is (00:00:00 UTC on 1 January 2001). This is based on Foundation's `timeIntervalSinceReferenceDate` but is fully customiazble during initialization.
 
 Learn more about Simple Flake here: https://github.com/SawdustSoftware/simpleflake
 
@@ -19,7 +19,7 @@ Learn more about Simple Flake here: https://github.com/SawdustSoftware/simplefla
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
