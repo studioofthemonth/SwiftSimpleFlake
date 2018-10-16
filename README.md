@@ -48,7 +48,7 @@ Creating a SimpleFlake.
 let flake = SimpleFlake()
 
 // Using a custom epoch
-let customFlak = SimpleFlake(date: Date(timeIntervalSince1970: 0))
+let customFlake = SimpleFlake(date: Date(timeIntervalSince1970: 0))
 
 // Using a seed for predictable result. Good for testing.
 let seededFlake = SimpleFlake(seedInt: 4815162342)
