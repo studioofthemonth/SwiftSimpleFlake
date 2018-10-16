@@ -1,7 +1,7 @@
 # SwiftSimpleFlake
 SimpleFlake distributed ID generation for Swift ❄️
 
-Generate ids consisting of a 41 bit time followed 23 random bits. String outputs can be encoded to binary, base10 or hexadecimal.
+Generate ids consisting of a 41 bit time followed by 23 random bits. String outputs can be encoded to binary, base10 or hexadecimal.
 
 The default epoch used to calculate dates is (00:00:00 UTC on 1 January 2001). This is based on Foundation's `timeIntervalSinceReferenceDate` but is fully customiazble during initialization.
 
