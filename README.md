@@ -48,10 +48,10 @@ Creating a SimpleFlake.
 let flake = SimpleFlake()
 
 // Using a custom epoch
-let flake = SimpleFlake(date: Date(timeIntervalSince1970: 0))
+let customFlak = SimpleFlake(date: Date(timeIntervalSince1970: 0))
 
 // Using a seed for predictable result. Good for testing.
-let flake = SimpleFlake(seedInt: 4815162342)
+let seededFlake = SimpleFlake(seedInt: 4815162342)
 ```
 
 Getting a SimpleFlake as a string.
