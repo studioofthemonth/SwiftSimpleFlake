@@ -60,7 +60,7 @@ Getting a SimpleFlake as a string.
 let seededFlake = SimpleFlake(seedInt: 4815162342)
 
 // Binary
-seededFlake.toString(encoding: .binary) //100000101011011001101000010000111010000100000000000000000000000"
+seededFlake.toString(encoding: .binary) //100000101011011001101000010000111010000100000000000000000000000
 
 // Base 10
 seededFlake.toString(encoding: .base10) //4709415155182600192
