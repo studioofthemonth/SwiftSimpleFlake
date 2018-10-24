@@ -1,9 +1,9 @@
 # SwiftSimpleFlake
 SimpleFlake distributed ID generation for Swift ❄️
 
-Generate ids consisting of a 41 bit time followed by 23 random bits. String outputs can be encoded to binary, base10 or hexadecimal.
+Generate ids consisting of a 41 bit time followed by 23 random bits. String outputs can be encoded to binary, base 10 or hexadecimal.
 
-The default epoch used to calculate dates is (00:00:00 UTC on 1 January 2001). This is based on Foundation's `timeIntervalSinceReferenceDate` but is fully customiazble during initialization.
+The default epoch used to calculate dates is (00:00:00 UTC on 1 January 2001). This is based on Foundation's `timeIntervalSinceReferenceDate` but is fully customizable during initialization.
 
 Learn more about Simple Flake here: https://github.com/SawdustSoftware/simpleflake
 
@@ -39,8 +39,6 @@ If you prefer not to use Cocoapods, you can integrate SwiftSimpleFlake into your
 
 ## Usage
 
-### Response Handling
-
 Creating a SimpleFlake.
 
 ```swift
@@ -60,11 +58,11 @@ Getting a SimpleFlake as a string.
 let seededFlake = SimpleFlake(seedInt: 4815162342)
 
 // Binary
-seededFlake.toString(encoding: .binary) //100000101011011001101000010000111010000100000000000000000000000
+seededFlake.toString(encoding: .binary) // 100000101011011001101000010000111010000100000000000000000000000
 
 // Base 10
-seededFlake.toString(encoding: .base10) //4709415155182600192
+seededFlake.toString(encoding: .base10) // 4709415155182600192
 
 // Hexadecimal
-seededFlake.toString(encoding: .hex)    //415b3421d0800000
+seededFlake.toString(encoding: .hex)    // 415b3421d0800000
 ```
